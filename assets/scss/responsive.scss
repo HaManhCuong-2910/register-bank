@@ -59,6 +59,6 @@
 
 @include mediaMobileTo640 {
   .container {
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 16px);
   }
 }

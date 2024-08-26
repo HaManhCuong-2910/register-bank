@@ -20,31 +20,37 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   robots: {
     // disallow: ["/vnpayment"],
     disallow: [],
   },
+
   experimental: {
     inlineRouteRules: true,
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   components: [
     {
       path: "~/src/components",
       pathPrefix: false,
     },
   ],
+
   dir: {
     layouts: "src/layouts",
     pages: "src/pages",
     middleware: "src/middleware",
     modules: "src/modules",
   },
+
   modules: [
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
@@ -56,17 +62,21 @@ export default defineNuxtConfig({
     "nuxt-simple-robots",
     "@element-plus/nuxt",
   ],
+
   device: {
     refreshOnResize: true,
   },
+
   i18n: {
     vueI18n: "./src/services/i18n.config.ts",
     locales: ["en", "vi"],
     defaultLocale: "vi",
   },
+
   build: {
     transpile: ["@fortawesome/vue-fontawesome"],
   },
+
   veeValidate: {
     autoImports: true,
     componentNames: {
@@ -76,6 +86,7 @@ export default defineNuxtConfig({
       ErrorMessage: "VErrorMessage",
     },
   },
+
   vite: {
     optimizeDeps: {
       include: ["dayjs", "dayjs/plugin/*", "element-plus"],
@@ -93,11 +104,15 @@ export default defineNuxtConfig({
       target: "es2015",
     },
   },
+
   css: ["@/assets/scss/main.scss"],
   devtools: { enabled: false },
+
   runtimeConfig: {
     public: {
       apiBase: process.env.API_END_POINT || "",
     },
   },
+
+  compatibilityDate: "2024-08-24",
 });

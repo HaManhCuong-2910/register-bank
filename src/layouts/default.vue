@@ -1,5 +1,6 @@
 <template>
   <header-default-layout />
+  <navigation-default-layout />
   <main>
     <slot> </slot>
   </main>
