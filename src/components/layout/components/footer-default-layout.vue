@@ -19,10 +19,10 @@
           </div>
           <div>
             <h4 class="text-sm font-bold">Hotline</h4>
-            <p class="text-sm">
-              1900 545426 <br />
-              (84-24)3767 4050 (quốc tế gọi về)
-            </p>
+            <nuxt-link :to="'tel:1900545426'" :class="'text-sm'"
+              >1900 545426</nuxt-link
+            >
+            <br />
             <nuxt-link
               :to="'https://www.mbbank.com.vn/resources/files/TT-247/smart-ivr/hdsd-a4.pdf'"
               :class="'text-sm text-[#141ED2]'"
