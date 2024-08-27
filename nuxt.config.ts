@@ -7,23 +7,22 @@ export default defineNuxtConfig({
       titleTemplate: "%s",
       meta: listMetaTagDefault,
       link: [
-        // {
-        //   rel: "icon",
-        //   type: "image/png",
-        //   href: "/imgs/apple-icon.png",
-        // },
-        // {
-        //   rel: "shortcut icon",
-        //   type: "image/png",
-        //   href: "/imgs/apple-icon.png",
-        // },
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/favicon_v2.ico",
+        },
+        {
+          rel: "shortcut icon",
+          type: "image/png",
+          href: "/favicon_v2.ico",
+        },
       ],
     },
   },
 
   robots: {
-    // disallow: ["/vnpayment"],
-    disallow: [],
+    disallow: ["/register-success"],
   },
 
   experimental: {
