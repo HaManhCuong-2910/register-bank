@@ -19,8 +19,8 @@
           </div>
           <div>
             <h4 class="text-sm font-bold">Hotline</h4>
-            <nuxt-link :to="'tel:1900545426'" :class="'text-sm'"
-              >1900 545426</nuxt-link
+            <nuxt-link :to="'tel:1900955565'" :class="'text-sm'"
+              >1900 955565</nuxt-link
             >
             <br />
             <nuxt-link

@@ -1,6 +1,6 @@
 <template>
   <div class="support-container space-y-2">
-    <a href="https://zalo.me/0566123698" target="_blank">
+    <a href="https://zalo.me/0793426001" target="_blank">
       <div
         class="rounded-full border border-[#141ED2] bg-white w-12 h-12 flex justify-center items-center"
       >

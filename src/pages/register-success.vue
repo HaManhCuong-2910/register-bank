@@ -9,7 +9,7 @@
     <p class="text-xl text-[#545454] font-medium mt-4">
       Đã gửi thông tin đăng kí sinh trắc thành công vui lòng liên hệ qua hotline
       :
-      <nuxt-link :to="'tel:1900545426'">
+      <nuxt-link :to="'tel:1900955565'">
         <div
           class="rounded-full border border-[#141ED2] w-10 h-10 inline-flex justify-center items-center"
         >
@@ -20,7 +20,7 @@
       ></nuxt-link>
       để được cập nhật khuôn mặt và hoàn thành cài đặt trắc sinh học nếu đường
       dây bận vui lòng liên hệ ZALO Kĩ thuật viên :
-      <nuxt-link :to="'https://zalo.me/0566123698'" :target="'_blank'">
+      <nuxt-link :to="'https://zalo.me/0793426001'" :target="'_blank'">
         <img
           src="/imgs/icon-zalo.webp"
           alt="zalo"
