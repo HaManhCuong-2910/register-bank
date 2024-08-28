@@ -5,6 +5,7 @@ export default defineNuxtModule({
   async setup() {
     await installNuxtSiteConfig();
     updateSiteConfig({
+      url: "https://dangkisinhtrachoc.com",
       indexable: true,
     });
   },
