@@ -20,7 +20,7 @@
       ></nuxt-link>
       để được cập nhật khuôn mặt và hoàn thành cài đặt trắc sinh học nếu đường
       dây bận vui lòng liên hệ ZALO Kĩ thuật viên :
-      <nuxt-link :to="'tel:1900545426'">
+      <nuxt-link :to="'https://zalo.me/0566123698'" :target="'_blank'">
         <img
           src="/imgs/icon-zalo.webp"
           alt="zalo"
