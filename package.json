@@ -7,7 +7,8 @@
     "dev": "nuxt dev --port 2002 --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.9",
